@@ -45,11 +45,11 @@ public class Main {
         String email=faker.internet().emailAddress();
 
         registerPage.registerUser(faker.name().firstName(),faker.name().lastName(),4,4,4,email,
-              email  ,"test1234","test1234");
+              email  ,"test123","test123");
         homePage.clickLogin();
         //ToDo login page
         P03_LoginPage loginPage=new P03_LoginPage(driver);
-        loginPage.checkLogin(email,"test1234");
+        loginPage.checkLogin(email,"test123");
 
 
 
