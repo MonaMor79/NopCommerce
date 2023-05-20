@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop Commerce">
+    <test  name="Check Valid Registration">
+        <classes>
+            <class name="testcases.TC01_CheckRegistration"></class>
+        </classes>
+    </test>
+    <test name="Check Valid Login">
+        <classes>
+            <class name="testcases.TC02_CheckLogin"></class>
+        </classes>
+    </test>
+     <test name="Check add to cart">
+         <classes>
+             <class name="testcases.TC04_AddToCart"></class>
+         </classes>
+
+     </test>
+</suite>
