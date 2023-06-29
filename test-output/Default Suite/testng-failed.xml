@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TaskNopcommerce(failed)">
+    <classes>
+      <class name="testcases.TC08_RandomCategory">
+        <methods>
+          <include name="getResult"/>
+          <include name="defineSuiteElements"/>
+          <include name="testRandomCategory"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.TC08_RandomCategory -->
+    </classes>
+  </test> <!-- TaskNopcommerce(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
