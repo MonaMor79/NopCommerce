@@ -1,0 +1,1 @@
+{"uuid":"d7782e37-5add-42bf-8cbd-8efe9bd28205","name":"add to CompareList","children":["1e24a5f8-fc50-48e9-99a8-17413ede8f6f"],"befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1687682052499,"stop":1687682053170}],"start":1687682049204,"stop":1687682053170}

@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TaskNopcommerce(failed)">
     <classes>
-      <class name="testcases.TC08_RandomCategory">
+      <class name="testcases.TC05_AddToCart">
         <methods>
           <include name="getResult"/>
+          <include name="login"/>
           <include name="defineSuiteElements"/>
-          <include name="testRandomCategory"/>
-          <include name="tearDown"/>
           <include name="setupDriver"/>
+          <include name="tearDown"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- testcases.TC08_RandomCategory -->
+      </class> <!-- testcases.TC05_AddToCart -->
     </classes>
   </test> <!-- TaskNopcommerce(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

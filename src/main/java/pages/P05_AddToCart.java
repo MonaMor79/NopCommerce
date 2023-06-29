@@ -4,72 +4,89 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class P04_Click {
+public class P05_AddToCart {
+
+    //ToDo create constructor and initiate driver in constructor
+    public P05_AddToCart(WebDriver driver) {
+        this.driver = driver;
+    }
+
     //ToDo add driver
     private WebDriver driver;
-    //ToDo Adding Locator computer tap
-    private final By computerTap= By.xpath("(//a)[@href='/computers']");
-    //ToDo Adding Locator computer tap
-    private final By deskTop=By.xpath("//a[@title='Show products in category Desktops'][normalize-space()='Desktops']");
-    //ToDo Adding Locator build pic
-    private final By buildLocator=By.xpath("(//a)[@href='/build-your-own-computer' and @title='Show details for Build your own computer']");
-    //ToDo create constructor and initiate driver in constructor
-
-    //TODo buy build computer
-    //Todo find locator Processor field
-    private final By processorLocator=By.xpath("(//select)[@data-attr='1']");
-    //Todo find locator Ram field
-    private final By ramLocator=By.xpath("(//select)[@data-attr='2']");
-    //Todo find locator HDD field
-    private final By hddLocator=By.xpath("(//label)[@for='product_attribute_3_6']");
-    //Todo find locator OS field
-    private final By osLocator=By.xpath("(//label)[@for='product_attribute_4_9']");
-    //Todo find locator Add To Cart field
-    private final By addToCartLocator=By.xpath("(//button)[@id='add-to-cart-button-1']");
 
 
+    //ToDo Adding Locator
+    private final By computerTap = By.xpath("(//a)[@href='/computers']");
+    private final By deskTop = By.xpath("//a[@title='Show products in category Desktops'][normalize-space()='Desktops']");
+    private final By buildLocator = By.xpath("(//a)[@href='/build-your-own-computer' and @title='Show details for Build your own computer']");
+
+    private final By processorLocator = By.xpath("(//select)[@data-attr='1']");
+    private final By ramLocator = By.xpath("(//select)[@data-attr='2']");
+    private final By hddLocator = By.xpath("(//label)[@for='product_attribute_3_6']");
+    private final By osLocator = By.xpath("(//label)[@for='product_attribute_4_9']");
+    private final By addToCartLocator = By.xpath("(//button)[@id='add-to-cart-button-1']");
 
 
-    public P04_Click(WebDriver driver){
-        this.driver=driver;
-    }
-    //TODO click Computer Tap method
-    public Void click(){
+    private final By home = By.xpath("//a[@href=\"/\" and span]");
+
+    public P05_AddToCart ClickComputerTap() {
         driver.findElement(computerTap).click();
-        return null;
+        return this;
+
     }
-    //TODO click desktop  method
-    public void desktopClick(){
+
+    public P05_AddToCart ClickDeskTop() {
         driver.findElement(deskTop).click();
+        return this;
+
     }
-    //TODO click build pic  method
-    public  void buildPic(){
+
+    public P05_AddToCart ClickBuild() {
         driver.findElement(buildLocator).click();
+        return this;
     }
 
-    //ToDo select processor method
-    public void processorSelect(){
-        Select select=new Select(driver.findElement(this.processorLocator));
+    public P05_AddToCart ClickProcessor() {
+        Select select = new Select(driver.findElement(processorLocator));
         select.selectByValue("2");
-
+        return this;
 
     }
-    //ToDo select Ram Method
-    public void ramSelect(){
-        Select selectRam=new Select(driver.findElement(this.ramLocator));
+
+    public P05_AddToCart ClickRam() {
+        Select selectRam = new Select(driver.findElement(ramLocator));
         selectRam.selectByValue("4");
+        return this;
+
     }
 
-    //ToDo select HDD Method
-    public void hddMethod(){
-        driver.findElement(this.hddLocator).click();
-    }
-    public void osMethod(){
-        driver.findElement(this.osLocator).click();
-    }
-    public void addToCartMethod(){
-        driver.findElement(this.addToCartLocator).click();
+    public P05_AddToCart ClickHdd() {
+        driver.findElement(hddLocator).click();
+        return this;
+
     }
 
+    public P05_AddToCart ClickOs() {
+        driver.findElement(osLocator).click();
+        return this;
 
+    }
+
+    public P05_AddToCart ClickAddToCart() {
+        driver.findElement(addToCartLocator).click();
+
+        return this;
+
+
+    }
+
+    public P05_AddToCart getHome() {
+        driver.findElement(home).click();
+
+        return this;
+    }
 }
+
+
+
+

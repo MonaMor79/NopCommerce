@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-10T15:09:41 EET" name="Default Suite" finished-at="2023-06-10T15:09:41 EET" duration-ms="850">
+  <suite started-at="2023-06-16T20:34:28 EET" name="Default Suite" finished-at="2023-06-16T20:34:28 EET" duration-ms="439">
     <groups>
     </groups>
-    <test started-at="2023-06-10T15:09:41 EET" name="TaskNopcommerce" finished-at="2023-06-10T15:09:41 EET" duration-ms="850">
-      <class name="testcases.TC08_RandomCategory">
-        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:testcases.TC08_RandomCategory@14555e0a]" started-at="2023-06-10T15:09:40 EET" name="defineSuiteElements" finished-at="2023-06-10T15:09:41 EET" duration-ms="788" status="PASS">
+    <test started-at="2023-06-16T20:34:28 EET" name="TaskNopcommerce" finished-at="2023-06-16T20:34:28 EET" duration-ms="439">
+      <class name="testcases.TC05_AddToCart">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:testcases.TC05_AddToCart@456abb66]" started-at="2023-06-16T20:34:27 EET" name="defineSuiteElements" finished-at="2023-06-16T20:34:28 EET" duration-ms="824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineSuiteElements -->
-        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC08_RandomCategory@14555e0a]" started-at="2023-06-10T15:09:41 EET" name="setupDriver" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1686402581224" status="FAIL">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC05_AddToCart@456abb66]" started-at="2023-06-16T20:34:28 EET" name="setupDriver" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1686940468413" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -56,7 +56,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="testRandomCategory()[pri:1, instance:testcases.TC08_RandomCategory@14555e0a]" started-at="2023-06-10T15:09:41 EET" name="testRandomCategory" finished-at="2023-06-10T15:09:41 EET" duration-ms="0" status="SKIP">
+        <test-method signature="login()[pri:1, instance:testcases.TC05_AddToCart@456abb66]" started-at="2023-06-16T20:34:28 EET" name="login" finished-at="2023-06-16T20:34:28 EET" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -100,50 +100,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRandomCategory -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC08_RandomCategory@14555e0a]" started-at="2023-06-10T15:09:41 EET" name="getResult" finished-at="2023-06-10T15:09:41 EET" duration-ms="0" status="SKIP">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC05_AddToCart@456abb66]" started-at="2023-06-16T20:34:28 EET" name="getResult" finished-at="2023-06-16T20:34:28 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.TC08_RandomCategory@14555e0a]" started-at="2023-06-10T15:09:41 EET" name="quit" finished-at="2023-06-10T15:09:41 EET" duration-ms="2" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at testcases.TestBase.quit(TestBase.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-at org.testng.TestRunner.afterRun(TestRunner.java:893)
-at org.testng.TestRunner.run(TestRunner.java:606)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.TC05_AddToCart@456abb66]" started-at="2023-06-16T20:34:28 EET" name="quit" finished-at="2023-06-16T20:34:28 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC08_RandomCategory@14555e0a]" started-at="2023-06-10T15:09:42 EET" name="tearDown" finished-at="2023-06-10T15:09:42 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC05_AddToCart@456abb66]" started-at="2023-06-16T20:34:28 EET" name="tearDown" finished-at="2023-06-16T20:34:29 EET" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC08_RandomCategory -->
+      </class> <!-- testcases.TC05_AddToCart -->
     </test> <!-- TaskNopcommerce -->
   </suite> <!-- Default Suite -->
 </testng-results>

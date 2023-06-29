@@ -1,0 +1,1 @@
+{"uuid":"3c888067-f38e-4cfb-8266-800d8ecff0d1","name":"Random Category","children":["a514ba6d-1d24-4cb7-a242-db998b9dd076"],"befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1686416302743,"stop":1686416303621}],"start":1686416283439,"stop":1686416303622}

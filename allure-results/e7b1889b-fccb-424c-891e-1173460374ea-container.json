@@ -1,0 +1,1 @@
+{"uuid":"e7b1889b-fccb-424c-891e-1173460374ea","name":"switch currency ","children":["3092b7f0-34ae-41eb-ae36-2e81f94dd50b"],"befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1686405459243,"stop":1686405462958}],"start":1686405444269,"stop":1686405462958}

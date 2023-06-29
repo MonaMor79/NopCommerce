@@ -1,0 +1,1 @@
+{"uuid":"803c823b-90ff-4f41-868c-65fcff57f64d","name":"Check add to cart","children":["ae5d60da-2a6b-4d66-b7e0-c9de8221ddb4"],"befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1687733791366,"stop":1687733792107}],"start":1687733783290,"stop":1687733792107}

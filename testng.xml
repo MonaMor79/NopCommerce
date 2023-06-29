@@ -1,20 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Nop Commerce">
+    <parameter name="browser" value=""> </parameter>
+
     <test  name="Check Valid Registration">
         <classes>
-            <class name="testcases.TC01_CheckRegistration"></class>
+            <class name="testcases.TC01_CheckRegistration"> </class>
         </classes>
     </test>
+
     <test name="Check Valid Login">
         <classes>
-            <class name="testcases.TC02_CheckLogin"></class>
+            <class name="testcases.TC02_CheckLogin"> </class>
         </classes>
     </test>
-     <test name="Check add to cart">
-         <classes>
-             <class name="testcases.TC04_AddToCart"></class>
-         </classes>
+    <test name="Check Forgot password">
+        <classes>
+            <class name="testcases.TC04_ChForgotPassword"> </class>
+        </classes>
+    </test>
+    <test name="search product ">
+        <classes>
+            <class name="testcases.TC06_SearchProduct"> </class>
+        </classes>
 
-     </test>
+    </test>
+    <test name="switch currency ">
+        <classes>
+            <class name="testcases.TC07_SwitchCurrency"> </class>
+        </classes>
+
+    </test>
+
+    <test name="Check add to cart">
+        <classes>
+            <class name="testcases.TC05_AddToCart"> </class>
+        </classes>
+    </test>
+    <test name="Random Category">
+        <classes>
+            <class name="testcases.TC08_RandomCategory"> </class>
+        </classes>
+    </test>
+    <test name="Filter color">
+        <classes>
+            <class name="testcases.TC09_Filter"> </class>
+        </classes>
+    </test>
+    <test name="add to wishlist">
+        <classes>
+            <class name="testcases.TC10_WishList">
+            </class>
+        </classes>
+    </test>
+    <test name="add to CompareList">
+        <classes>
+            <class name="testcases.TC11_Compare">
+            </class>
+       </classes>
+    </test>
+    <test name="Order">
+        <classes>
+            <class name="testcases.TC012_Order">
+            </class>
+        </classes>
+    </test>
 </suite>

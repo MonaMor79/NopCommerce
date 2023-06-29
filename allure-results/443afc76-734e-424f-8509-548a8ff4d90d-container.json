@@ -1,0 +1,1 @@
+{"uuid":"443afc76-734e-424f-8509-548a8ff4d90d","name":"Check Valid Registration","children":["c7a73d42-b875-493d-ac6e-371698d538a6"],"befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1686408691736,"stop":1686408692775}],"start":1686408679076,"stop":1686408692776}
